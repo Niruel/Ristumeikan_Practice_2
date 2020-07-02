@@ -1,5 +1,5 @@
 /**
- * 2020/06/30
+ * 2020/07/02
  * Exercise in Binary search tree deletion
  * Created By: Nicholas Ruppel
  * Student ID: 26001904476
@@ -19,7 +19,7 @@ public class Delete {
 		tree = testData.getTree();
 		testData.showTree(tree);
 		System.out.println();
-		tree = deleteKey(tree, 76);
+		tree = deleteKey(tree, 32);
 		testData.showTree(tree);
 		System.out.println();
 	}
